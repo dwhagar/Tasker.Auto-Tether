@@ -1,0 +1,32 @@
+<TaskerData sr="" dvi="1" tv="4.3u4m">
+	<Task sr="task10">
+		<cdate>1399990303388</cdate>
+		<edate>1400284750313</edate>
+		<id>10</id>
+		<nme>Enable Tether</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="5">
+			<code>11820</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.intangibleobject.securesettings.plugin.extra.BLURB>BT Tether Enabled</com.intangibleobject.securesettings.plugin.extra.BLURB>
+					<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED>true</com.intangibleobject.securesettings.plugin.extra.ENABLED>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.ENABLED-type>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING>bt_tether</com.intangibleobject.securesettings.plugin.extra.SETTING>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>BT Tether Enabled</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">Secure Settings</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_device_access_bluetooth_searching</nme>
+		</Img>
+	</Task>
+</TaskerData>
