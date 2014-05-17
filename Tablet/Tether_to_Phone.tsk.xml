@@ -1,0 +1,86 @@
+<TaskerData sr="" dvi="1" tv="4.3u4m">
+	<Task sr="task11">
+		<cdate>1367655351349</cdate>
+		<edate>1400346118776</edate>
+		<id>11</id>
+		<nme>Tether to Phone</nme>
+		<pri>10</pri>
+		<Kid sr="Kid">
+			<launchID>11</launchID>
+			<pkg>tasker.custom.bt.verin.tether</pkg>
+			<vnme>1.0</vnme>
+			<vnum>2</vnum>
+		</Kid>
+		<Action sr="act0" ve="5">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="5">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="2">
+					<lhs>%BTConnect</lhs>
+					<op>4</op>
+					<rhs>0</rhs>
+				</Condition>
+				<Condition sr="c1" ve="2">
+					<lhs>%WIFII</lhs>
+					<op>1</op>
+					<rhs>*connection*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="5">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Monitoring BT Tether</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="5">
+			<code>11820</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.intangibleobject.securesettings.plugin.extra.BLURB>Siuan (2C:8A:72:14:6A:73) - Connect</com.intangibleobject.securesettings.plugin.extra.BLURB>
+					<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED>true</com.intangibleobject.securesettings.plugin.extra.ENABLED>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.ENABLED-type>
+					<com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION>2C:8A:72:14:6A:73</com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION>
+					<com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION-type>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING>bt_connect</com.intangibleobject.securesettings.plugin.extra.SETTING>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Siuan (2C:8A:72:14:6A:73) - Connect</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">Secure Settings</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="5">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Tether Search</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act5" ve="5">
+			<code>43</code>
+		</Action>
+		<Action sr="act6" ve="5">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Tether Search</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="5">
+			<code>38</code>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_device_access_bluetooth_searching</nme>
+		</Img>
+	</Task>
+</TaskerData>
