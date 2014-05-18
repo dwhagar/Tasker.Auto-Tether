@@ -1,4 +1,4 @@
-Takers.Auto-Tether
+Tasker.Auto-Tether
 ==================
 
 Automatic tethering for Tasker
